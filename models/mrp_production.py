@@ -9,5 +9,6 @@ class Consumido(models.Model):
     total_consumido = fields.Float("Total", compute='get_total_consumido')
 
     def get_total_consumido(self):
-        self.total_consumido = round(
-            sum(line.quantity_done for line in self.move_raw_ids))
+        self.total_consumido = sum(
+            line.quantity_done for line in self.move_raw_ids)
+
