@@ -4,6 +4,7 @@
     'version': '13.3',
     'author': 'Demsa',
     'website': '',
+    'license': 'LGPL-3',
     'depends': [
         'mrp',
 
