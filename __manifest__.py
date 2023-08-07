@@ -4,7 +4,6 @@
     'version': '13.3',
     'author': 'Demsa',
     'website': '',
-    'license': 'LGPL-3',
     'depends': [
         'mrp',
 
@@ -20,4 +19,5 @@
         'views/stock_picking.xml',
 
     ],
+    'license': 'LGPL-3',
 }
